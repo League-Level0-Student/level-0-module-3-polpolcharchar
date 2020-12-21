@@ -20,9 +20,13 @@ public class CrazyCatLady {
 		//    Hint: You can use the && operator 
 		else if(cats<3 && cats >0) {
 			//video not supported
+			JOptionPane.showMessageDialog(null, "Watch a cat video!");
 		}
 		// 5. If they have 0 cats, show them a video of A Frog Sitting on a Bench Like a Human
 		//video not supported
+		else {
+			JOptionPane.showMessageDialog(null, "Watch a video of a frog sitting on a bench like a human.");
+		}
 
 		
 		
